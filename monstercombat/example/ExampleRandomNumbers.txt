@@ -1,0 +1,62 @@
+Attack 1:
+Hit%: 73.22219172863654 => Hits
+Crit%: 86.69148741814655 => Doesn't crit
+Random attack factor: 0.947988029111467
+=> Damage: 40.1864 => 41 damage
+
+Attack 2:
+Hit%: 59.851647214528555 => Hits
+
+Burn End Chance:
+%: 41.45965542296267 => Continues to burn
+
+Attack 3:
+Hit%: 91.26354106267657 => Misses
+
+Attack 4:
+Hit%: 28.597044887309643 => Hits
+Crit%: 61.45075557422693 => Doesn't crit
+Random attack factor: 0.9890513470610698
+=> Damage: 20.2306 => 21 Damage
+
+Burn End Chance:
+%: 99.9587711996269 => Continues to burn
+
+Attack 5:
+Hit%: 56.3868878760328 => Hits
+Crit%: 6.820469035033428 => Crits
+Random attack factor: 0.8623339446147953
+=> Damage: 76.7664 => 77 Damage
+
+Attack 6:
+Hit%: 25.780123350498506 => Hits
+Crit%: 57.75570659151311 => Doesn't crit
+Random attack factor: 0.9519700682400719
+=> Damage: 19.4721 => 20 Damage
+
+Burn End Chance:
+%: 32.886235715553326 => Burn ends
+
+Attack 7:
+Hit%: 18.273917772063776 => Hits
+Crit%: 86.71145064874088 => Doesn't crit
+Random attack factor: 0.9532010078596758
+=> Damage: 40.4074 => 41 Damage
+
+Attack 8:
+Hit%: 13.156995207756939 => Hits
+Crit%: 3.530375580853806 => Crits
+Random attack factor: 0.8684902812152225
+=> Damage 35.5291 => 36 Damage
+
+Attack 9:
+Hit%: 67.33886334696669 => Hits
+Crit%: 84.36734873348513 => Doesn't crit
+Random attack factor: 0.9392556019116496
+=> Damage 39.8163 => 40 Damage
+
+Attack 10:
+Hit%: 15.629508839836404 => Hits
+
+Burn End Chance:
+%: 86.62577453528428 => Doesnt end
