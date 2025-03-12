@@ -97,7 +97,7 @@ public class CommandHandler {
         switch (command) {
             case "quit":
                 checkArgCount(args, 0);
-                cmd = new CommandQuit();
+                cmd = new CommandQuit(userInterface);
                 break;
             case "load":
                 checkArgCount(args, 1);

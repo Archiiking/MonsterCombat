@@ -111,4 +111,13 @@ public class EffectDamage extends Effect {
         return value;
     }
 
+    @Override
+    public String getDamageInfo() {
+        String prefix = switch (type) {
+            case BASE -> "b";
+            case RELATIVE -> "r";
+            case ABSOLUTE -> "a";
+        };
+        return prefix + value;
+    }
 }

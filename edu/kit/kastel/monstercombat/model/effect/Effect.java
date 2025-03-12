@@ -37,38 +37,11 @@ public abstract class Effect {
         queue.add(this);
     }
 
-    public boolean isDamageEffect() {
-        return false;
-    }
-
-    public String getDamageTypeCode() {
-        return "";
-    }
-
     public int getValue() {
         return 0;
     }
 
-/*
-    public boolean calculateHit(Competition competition, Monster user, Monster target) {
-        // If either monster is defeated, the effect always misses
-        if (user.isDefeated() || (target != null && target.isDefeated())) {
-            return false;
-        }
-
-        // Calculate the effective hit rate
-        double effectiveHitRate = hitRate;
-
-        // Apply precision and agility if targeting another monster
-        if (target != null && target != user) {
-            effectiveHitRate *= user.getEffectivePrecision() / target.getEffectiveAgility();
-        } else {
-            effectiveHitRate *= user.getEffectivePrecision();
-        }
-
-        // Decide if the effect hits
-        return competition.decideYesOrNo("attack hit", effectiveHitRate);
+    public String getDamageInfo() {
+        return "--";
     }
- */
-
 }

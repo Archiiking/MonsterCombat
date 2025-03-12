@@ -33,36 +33,6 @@ public class Action {
         return new ArrayList<>(effects);
     }
 
-
-//ToDo Instanceof ist verboten.
-//FixMe Die 3 Methoden ändern. TaskA hat die nicht.
-
-/*
-    public String getDamageString() {
-        for (Effect effect : effects) {
-            if (effect instanceof EffectDamage) {
-                EffectDamage damageEffect = (EffectDamage) effect;
-                return damageEffect.getDamageString();
-            }
-        }
-        return "--";
-    }
-
-    public String getFirstEffectHitRateString() {
-        if (effects.isEmpty()) {
-            return "0";
-        }
-        return String.valueOf(effects.get(0).getHitRate());
-    }
-
-    @Override
-    public String toString() {
-        return String.format("%s: ELEMENT %s, Damage %s, HitRate %s",
-                name, element, getDamageString(), getFirstEffectHitRateString());
-    }
-
- */
-
     public int getFirstEffectHitRate() {
         if (effects.isEmpty()) {
             return 0;
